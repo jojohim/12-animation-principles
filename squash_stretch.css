@@ -1,0 +1,10 @@
+.squash {
+    animation: squashstretch 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes squashstretch {
+        0% { transform: translateY(0px) scaleY(1.0); }
+        100% { transform: translateY(62vh) scaleY(0.85); }
+     }
+

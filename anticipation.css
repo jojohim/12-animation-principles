@@ -1,0 +1,14 @@
+.disappear{
+    animation: disappear 3s;
+    animation-timing-function: cubic-bezier(.52,.59,1,1.21);
+}
+
+@keyframes disappear{
+    0% {
+        top: 0vh;
+    }
+
+    100% {
+        transform: translateY(82vh);
+    }
+}
